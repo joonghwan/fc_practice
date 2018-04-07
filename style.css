@@ -1,0 +1,194 @@
+body {
+	line-height: normal;
+	font-family: Roboto;
+}
+
+.icon_button {
+	margin: 0;
+	border: 0;
+  	padding: 0;
+	width: 24px;
+	height: 24px;
+	background: none;
+}
+
+.app_bar {
+	box-sizing: border-box;
+	height: 56px;
+	background-color: #009688;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.24), 0 0 4px 0 rgba(0, 0, 0, 0.12);
+	
+	padding-top: 14px;
+	padding-left: 16px;
+	padding-right: 10px;
+
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.app_bar_left {
+	float: left;
+	overflow: auto;
+}
+
+.app_bar_left .icon_button {
+	float: left;
+	overflow: auto;
+	margin-top: 2px;
+	margin-right: 16px;
+}
+
+h1 {
+	float: left;
+	overflow: auto;
+	font-size: 20px;
+  	font-weight: 500;
+  	line-height: 1.4;
+  	color: #ffffff;
+}
+
+.app_bar_right {
+	float: right;
+	overflow: auto;
+}
+
+.app_bar_right .icon_button {
+	float: left;
+	overflow: auto;
+	margin-top: 2px;
+	margin-left: 18px;
+}
+
+.contents {
+	padding-top: 56px;
+}
+
+.file_section {
+	padding-top: 6px;
+	padding-bottom: 8px;
+	border-bottom: solid 1px rgba(0, 0, 0, 0.12); 
+}
+
+.section_header {
+	box-sizing: border-box;
+  	height: 48px;
+  	font-size: 14px;
+  	color: #009789;
+  	padding-left: 16px;
+  	padding-top: 14px;
+}
+
+.file_list_item {
+	box-sizing: border-box;
+	height: 72px;
+  	padding-left: 16px;
+  	padding-top: 16px;
+}
+
+.file_list_item_left{
+	float: left;
+	overflow: auto;
+}
+
+.file_list_item h2 {
+	font-size: 16px;
+	line-height: 1.5;
+	color: rgba(0, 0, 0, 0.87);
+}
+
+.file_list_item p {
+	font-size: 14px;
+	line-height: 1.43;
+	color: rgba(0, 0, 0, 0.54);
+}
+
+.file_list_item .icon_button {
+	float: right;
+	overflow: auto;
+	margin-right: 10px;
+	margin-top: 8px;
+}
+
+.user_section {
+	padding-bottom: 8px;
+	border-bottom: solid 1px rgba(0, 0, 0, 0.12); 
+}
+
+.user_list_item {
+	height: 56px;
+  	margin-left: 16px;
+}
+
+.user_list_item_left {
+	float: left;
+	overflow: auto;
+	margin-top: 8px;
+}
+
+.user_thum{
+	float: left;
+	overflow: auto;
+	width: 40px;
+  	height: 40px;
+  	border-radius: 1000px;
+  	margin-right: 16px;
+
+  	background-color: #eee;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center;
+}
+
+.user_list_item h2 {
+	float: left;
+	overflow: auto;
+	font-size: 16px;
+	line-height: 1.5;
+	color: rgba(0, 0, 0, 0.87);
+	margin-top: 9px;
+}
+
+.user_list_item .icon_button {
+	float: right;
+	overflow: auto;
+	margin-right: 10px;
+	margin-top: 16px;
+}
+
+.note_section p {
+	font-size: 14px;
+	line-height: 1.71;
+	color: rgba(0, 0, 0, 0.87);
+	padding-left: 16px;
+	padding-right: 10px;
+}
+
+.fab {
+	width: 56px;
+	height: 56px;
+	box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.24), 0 0 12px 0 rgba(0, 0, 0, 0.12), 0 6px 6px 0 rgba(0, 0, 0, 0.24), 0 0 6px 0 rgba(0, 0, 0, 0.12);
+	background-color: #ff3f6f;
+	border-radius: 100%;	
+
+	position: fixed;
+	bottom: 16px;
+	right: 16px;
+
+	display: block;
+  	box-sizing: border-box;
+  	padding-top: 16px;	
+}
+
+.fab img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
